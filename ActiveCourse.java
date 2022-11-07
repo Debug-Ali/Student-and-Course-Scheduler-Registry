@@ -104,8 +104,7 @@ public class ActiveCourse extends Course {
       Collections.sort(students, new NameComparator()); // sort the array students using NameComparator
    }
 
-   // Fill in the class so that this class implement the Comparator interface
-   // This class is used to compare two Student objects based on student name
+
    private class NameComparator implements Comparator<Student> // implement Name Comparotor for object student
    {
       public int compare(Student i, Student x) { // use the built in method compare to compare two students
