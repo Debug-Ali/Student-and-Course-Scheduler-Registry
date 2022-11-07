@@ -43,7 +43,7 @@ public class Registry {
 		courses.put(courseCode, new ActiveCourse(courseName, courseCode, descr, format, "W2020", list, "", 0, 0));
 
 		try {
-			Scanner read = new Scanner(new File("students.txt")); // create a scanner read to read from the student file
+			Scanner read = new Scanner(new File("students.txt")); // scanner read to read from the student file
 			while (read.hasNext()) { // while the next input is a string word
 				try {
 					String i = read.next(); // read i being the student name
